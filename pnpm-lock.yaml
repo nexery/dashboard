@@ -69,6 +69,9 @@ importers:
         specifier: ^4.0.14
         version: 4.0.14
     devDependencies:
+      '@iconify-json/lucide':
+        specifier: ^1.2.60
+        version: 1.2.60
       openapi-typescript:
         specifier: ^7.8.0
         version: 7.8.0(typescript@5.8.3)
@@ -635,6 +638,9 @@ packages:
   '@humanwhocodes/retry@0.4.3':
     resolution: {integrity: sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==}
     engines: {node: '>=18.18'}
+
+  '@iconify-json/lucide@1.2.60':
+    resolution: {integrity: sha512-iVhpjcJkrR65jaJCJAFr02FkL73Qth039MgDJOcuKYOl32183qgAeHmo44DI2SzkYURGpc0GMwnhRPpQPOaChg==}
 
   '@iconify/collections@1.0.575':
     resolution: {integrity: sha512-IWVHoIRdM4ftpO4OV3XyqSc7WXxkb/h2B5wT65vptkjo/KAblCz7ii0AuiGtuKiCpFuuamrCOb97DEtdMeZOzg==}
@@ -5555,6 +5561,10 @@ snapshots:
   '@humanwhocodes/retry@0.3.1': {}
 
   '@humanwhocodes/retry@0.4.3': {}
+
+  '@iconify-json/lucide@1.2.60':
+    dependencies:
+      '@iconify/types': 2.0.0
 
   '@iconify/collections@1.0.575':
     dependencies:

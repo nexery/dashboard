@@ -33,6 +33,9 @@ export default defineNuxtConfig({
       },
     },
   },
+  icon: {
+    mode: "svg",
+  },
   modules: [
     "@nuxt/eslint",
     "@nuxt/image",
